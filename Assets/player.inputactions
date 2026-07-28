@@ -1,0 +1,107 @@
+{
+    "version": 1,
+    "name": "player",
+    "maps": [
+        {
+            "name": "andar",
+            "id": "962bcda4-aa2c-4bf5-8765-7c865c156a96",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "38474633-03e0-419d-b066-0998b3b657b5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "7aefae8e-38e9-4d5d-ae27-3aad7c85267c",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "fce385fe-be5f-4b80-b680-f571c0ae252c",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "323ff691-966f-4002-b65a-22cbe41ca3a7",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "d0801cdc-c61e-47af-9ab0-4cb513445769",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "290772a4-e1ed-4832-a991-12a764d10ea1",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "aurala",
+            "id": "51374a62-aaf2-4894-a105-32f04e549c08",
+            "actions": [
+                {
+                    "name": "Clique",
+                    "type": "Button",
+                    "id": "545bc34b-9674-44d8-8653-610edd9697d4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "700adbd4-5a13-49f2-a5aa-df455e6eb650",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Clique",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
