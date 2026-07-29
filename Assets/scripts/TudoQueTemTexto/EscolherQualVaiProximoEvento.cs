@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class EscolherQualVaiProximoEvento : MonoBehaviour
 {
+    public static string npcPontos;
     void Start()
     {
         // Informações de debug para diagnosticar porque a lista pode vir vazia
@@ -23,6 +24,7 @@ public class EscolherQualVaiProximoEvento : MonoBehaviour
         }
 
         var npcComMaisPontos = pontosPorNpc.OrderByDescending(p => p.Value).First();
+        npcPontos = npcComMaisPontos.Key;
         Debug.Log($"NPC com mais pontos: {npcComMaisPontos.Key} ({npcComMaisPontos.Value} pontos)");
     }
 

@@ -74,7 +74,6 @@ public class dialogo : MonoBehaviour
                 FalasDepoisScript.MarcarConversa();
             }
             SceneManager.LoadScene(NomeDoProximoEvento);
-            Debug.Log("ta indificado ");
         }
     }
 

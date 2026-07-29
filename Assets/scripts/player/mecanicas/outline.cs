@@ -51,10 +51,8 @@ public class outline : MonoBehaviour
     }
     public void OnClique()
     {
-        Debug.Log ("chamo a função");
         if(highlight!=null)
         {
-            Debug.Log("entro no if");
             falacadaum diaslogo = highlight.GetComponent<falacadaum>();
             if(diaslogo!=null)
             {

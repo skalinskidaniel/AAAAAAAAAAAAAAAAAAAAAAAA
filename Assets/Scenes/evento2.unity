@@ -775,8 +775,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::detecMause
   direcao: 1
   Camera: {fileID: 2043552888}
-  alvoEsquerda: {fileID: 0}
-  alvoDireita: {fileID: 0}
+  alvoEsquerda: {fileID: 1924008748}
+  alvoDireita: {fileID: 200221143}
   alvoBaixo: {fileID: 485932221}
   velocidadeRotacao: 2
 --- !u!1 &874238350
@@ -1387,8 +1387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::detecMause
   direcao: 2
   Camera: {fileID: 2043552888}
-  alvoEsquerda: {fileID: 0}
-  alvoDireita: {fileID: 0}
+  alvoEsquerda: {fileID: 1924008748}
+  alvoDireita: {fileID: 200221143}
   alvoBaixo: {fileID: 485932221}
   velocidadeRotacao: 2
 --- !u!1 &1739181974
@@ -1805,8 +1805,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::detecMause
   direcao: 0
   Camera: {fileID: 2043552888}
-  alvoEsquerda: {fileID: 0}
-  alvoDireita: {fileID: 0}
+  alvoEsquerda: {fileID: 1924008748}
+  alvoDireita: {fileID: 200221143}
   alvoBaixo: {fileID: 485932221}
   velocidadeRotacao: 2
 --- !u!1660057539 &9223372036854775807
