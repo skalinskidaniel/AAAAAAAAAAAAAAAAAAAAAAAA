@@ -1,61 +1,51 @@
-using Unity.Mathematics;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
 
-public class ddtetcMause : MonoBehaviour,IPointerEnterHandler, IPointerExitHandler
+public class detecMause : MonoBehaviour, IPointerEnterHandler
 {
-    public bool mause = false;
-    public float veloR = 50f;
-    private Quaternion rotacaoAlvo;
+    public enum Direcao
+    {
+        Esquerda,
+        Direita,
+        Baixo
+    }
 
-    public GameObject Cesquerdo;
-    public GameObject Cdireito;
-    public GameObject Cembaixo;
+    public Direcao direcao;
+
     public GameObject Camera;
 
-    //private float tempR = 5f;
-    //private Vector3 velo = new Vector3(0, 0, 2);
-    //public Vector3 target;
-    //public Transform esfera;
+    public Transform alvoEsquerda;
+    public Transform alvoDireita;
+    public Transform alvoBaixo;
 
-    // Update is called once per frame
+    private static Quaternion alvo;
+    public float velocidadeRotacao = 2f;
+
     void Start()
     {
-       // rotacaoAlvo = Camera.transform.rotation;
+        alvo = Camera.transform.rotation;
     }
+
     void Update()
     {
-       // Camera.transform.rotation = Quaternion.RotateTowards(Camera.transform.rotation,rotacaoAlvo,veloR*Time.deltaTime);
+        Camera.transform.rotation = Quaternion.Slerp(Camera.transform.rotation,alvo,velocidadeRotacao * Time.deltaTime);
     }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
-        
-        Debug.Log("us rato entro pra dantroa na panela");
-        mause = true;
-        viraraDireita();
-    }
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        Debug.Log("o rato saiu da panela");
-    }
+        switch (direcao)
+        {
+            case Direcao.Esquerda:
+                alvo = Quaternion.LookRotation(alvoEsquerda.position - Camera.transform.position);
+                break;
 
+            case Direcao.Direita:
+                alvo = Quaternion.LookRotation(alvoDireita.position - Camera.transform.position);
+                break;
 
-    public void viraraEsquerda()
-    {
-        Camera.transform.rotation = Quaternion.Euler(0, -50, 0);
-    }
-    public void viraraDireita()
-    {
-        Camera.transform.rotation = Quaternion.Euler(0, 50, 0);
-    }
-    public void virarembaixo()
-    {
-
-        //Camera.transform.rotation = Vector3.SmoothDamp(transform.position,target,ref velo,tempR);
-        //Camera.transform.rotation = Quaternion.Slerp(Camera.transform.rotation,Quaternion.Euler(100,0,0),7f*Time.deltaTime);
-        Camera.transform.rotation = Quaternion.Euler(50, 0, 0);
+            case Direcao.Baixo:
+                alvo = Quaternion.LookRotation(alvoBaixo.position - Camera.transform.position);
+                break;
+        }
     }
 }

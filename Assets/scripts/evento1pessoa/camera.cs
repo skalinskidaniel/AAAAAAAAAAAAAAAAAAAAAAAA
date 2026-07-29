@@ -1,7 +1,8 @@
 using UnityEngine;
 
 public class camera : MonoBehaviour
-{
+{ 
+    public Transform Player ;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -11,6 +12,6 @@ public class camera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.LookAt(Player);
     }
 }
