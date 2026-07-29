@@ -11,8 +11,9 @@ public class falacadaum : MonoBehaviour
         if (canva != null)
         {
             StartCoroutine(Animacao());
+            
         }
-        Falas.SetActive(true);
+        
     }
 
     void Escurecer()
@@ -31,6 +32,7 @@ public class falacadaum : MonoBehaviour
         Clarear();
         canva.gameObject.SetActive(true); // Usa .gameObject.SetActive
         yield return new WaitForSeconds(0.90f); // Adicionado o yield obrigatório
+        Falas.SetActive(true);
         Escurecer();
         
         
