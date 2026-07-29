@@ -1,18 +1,20 @@
 using UnityEngine.SceneManagement;
-using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using System.Collections;
 using UnityEngine;
 using TMPro;
 
-public class dialogos : MonoBehaviour
+public class dialogo : MonoBehaviour
 {
     public TextMeshProUGUI CaixaTexto;
     public string[] Frases;
     public float TempoEntreFrases = 0.5f;
+    public string NomeDoProximoEvento;
+
+    [Tooltip("Referência ao componente FalasDepois deste NPC.")]
+    public FalasDepois FalasDepoisScript;
 
     private int FraseAtual;
-    private int ano;
 
     void Update()
     {
@@ -32,6 +34,16 @@ public class dialogos : MonoBehaviour
 
     void Start()
     {
+        if (FalasDepoisScript == null)
+        {
+            FalasDepoisScript = GetComponent<FalasDepois>();
+        }
+
+        if (FalasDepoisScript == null)
+        {
+            Debug.LogWarning($"FalasDepois não encontrado em {name}. Adicione o componente ou atribua pelo inspetor.");
+        }
+
         CaixaTexto.text = string.Empty;
         ComecaDialogo();
     }
@@ -53,9 +65,11 @@ public class dialogos : MonoBehaviour
         }
         else
         {
-            ano++;
-            SceneManager.LoadScene("SampleScene");
-
+            if (FalasDepoisScript != null)
+            {
+                FalasDepoisScript.MarcarConversa();
+            }
+            SceneManager.LoadScene(NomeDoProximoEvento);
         }
     }
 

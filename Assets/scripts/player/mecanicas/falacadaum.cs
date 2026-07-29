@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class falacadaum : MonoBehaviour
 {
  [SerializeField] public RawImage canva;
+ public GameObject Falas;
 
     public void abrirDialogo() //aqui é pra fazer o fundo e os teus texto roda
     {
@@ -11,6 +12,7 @@ public class falacadaum : MonoBehaviour
         {
             StartCoroutine(Animacao());
         }
+        Falas.SetActive(true);
     }
 
     void Escurecer()
