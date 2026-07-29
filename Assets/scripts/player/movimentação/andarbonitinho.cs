@@ -5,7 +5,7 @@ public class andarbonitinho : MonoBehaviour
 {
    private playerInput _playerInput; 
     public float velo = 8f;               
-    public float velocidadeGiro = 120f;   
+    public float velocidadeGiro = 15f;   
     private Rigidbody rb;
 
     void Awake()
