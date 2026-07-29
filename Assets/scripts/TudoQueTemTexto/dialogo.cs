@@ -11,6 +11,9 @@ public class dialogo : MonoBehaviour
     public float TempoEntreFrases = 0.5f;
     public string NomeDoProximoEvento;
 
+    private AudioSource audiosouce;
+    [SerializeField] public AudioClip somdafala;
+
     [Tooltip("Referência ao componente FalasDepois deste NPC.")]
     public FalasDepois FalasDepoisScript;
 
@@ -34,6 +37,7 @@ public class dialogo : MonoBehaviour
 
     void Start()
     {
+        audiosouce = GetComponent<AudioSource>();
         if (FalasDepoisScript == null)
         {
             FalasDepoisScript = GetComponent<FalasDepois>();
@@ -76,10 +80,12 @@ public class dialogo : MonoBehaviour
 
     IEnumerator Digitar()
     {
-        foreach (char c in Frases[FraseAtual].ToCharArray())
+        foreach (char c in Frases[FraseAtual])//.ToCharArray())
         {
             CaixaTexto.text += c;
+            audiosouce.PlayOneShot(somdafala);
             yield return new WaitForSeconds(TempoEntreFrases);
+           
         }
     }
 }
