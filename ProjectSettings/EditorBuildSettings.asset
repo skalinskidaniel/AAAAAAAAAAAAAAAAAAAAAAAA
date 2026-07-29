@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/sala.unity
-    guid: 8e756a44dfb4b9744922a3710fb61cec
-  - enabled: 1
     path: Assets/Scenes/evento2.unity
     guid: b5f42b0abf55f9146a094b6ab7328be4
   - enabled: 1
@@ -19,3 +16,4 @@ EditorBuildSettings:
     guid: cc60508e1b7223646b473c749ec743a7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0
