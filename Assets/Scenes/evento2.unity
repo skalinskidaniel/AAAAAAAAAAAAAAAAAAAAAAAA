@@ -410,6 +410,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
+      propertyPath: somdafala
+      value: 
+      objectReference: {fileID: 8300000, guid: a0fbc4d3f4018d043b323d7b592e13ca, type: 3}
+    - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
       propertyPath: CaixaTexto
       value: 
       objectReference: {fileID: 1792045116}
@@ -508,6 +512,10 @@ PrefabInstance:
       propertyPath: espera
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+      propertyPath: somdafala
+      value: 
+      objectReference: {fileID: 8300000, guid: 797e6d41342c1ff498d97529409b1960, type: 3}
     - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       propertyPath: CaixaTexto
       value: 
@@ -821,6 +829,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
+      propertyPath: somdafala
+      value: 
+      objectReference: {fileID: 8300000, guid: 09ce3ed88574f434db991dc20ba9b2f7, type: 3}
     - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: CaixaTexto
       value: 
@@ -1731,6 +1743,10 @@ PrefabInstance:
       propertyPath: 'pessoas.Array.data[3]'
       value: 
       objectReference: {fileID: 479520088}
+    - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
+      propertyPath: somdafala
+      value: 
+      objectReference: {fileID: 8300000, guid: 526cc27a5a3410543a912852cb42368e, type: 3}
     - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       propertyPath: CaixaTexto
       value: 
