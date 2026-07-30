@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 113118196}
   - component: {fileID: 113118195}
+  - component: {fileID: 113118197}
   m_Layer: 0
   m_Name: aldio
   m_TagString: Untagged
@@ -149,7 +150,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: fdfdf3bdadda9404084a407dc114139f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -248,6 +249,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &113118197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113118194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c87818de7671043a08a77e412e5af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::quemPassaProevento
+  masiponto: {fileID: 0}
+  lugar1: {fileID: 0}
+  luares: []
+  meusAMIGOSAMIGOS: []
 --- !u!1 &141305804
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,9 +359,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::quemPassaProevento
   masiponto: {fileID: 0}
   lugar1: {fileID: 200221143}
-  lugar2: {fileID: 714969767}
-  lugar3: {fileID: 141305805}
-  lugar4: {fileID: 1924008748}
   luares:
   - {fileID: 141305805}
   - {fileID: 1924008748}
@@ -805,7 +819,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874238350}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 0.8296218, b: 0.4292453, a: 1}
   m_Intensity: 0.68
@@ -857,7 +871,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -1179,7 +1193,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
