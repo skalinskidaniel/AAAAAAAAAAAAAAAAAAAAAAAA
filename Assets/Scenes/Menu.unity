@@ -810,7 +810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::falacadaum
   canva: {fileID: 2068940068}
-  Falas: {fileID: 1301385918}
+  fala: {fileID: 1301385918}
 --- !u!1 &942457624 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7769392265466133297, guid: 1ec14a80eec83ac4cb01858dd61b5f1c, type: 3}
@@ -1020,7 +1020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::falacadaum
   canva: {fileID: 1554112605}
-  Falas: {fileID: 1775964088}
+  fala: {fileID: 1775964088}
 --- !u!1 &1301385918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1032,6 @@ GameObject:
   - component: {fileID: 1301385919}
   - component: {fileID: 1301385921}
   - component: {fileID: 1301385920}
-  - component: {fileID: 1301385922}
   m_Layer: 5
   m_Name: Lk
   m_TagString: Untagged
@@ -1159,26 +1158,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301385918}
   m_CullTransparentMesh: 1
---- !u!114 &1301385922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301385918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f0eb41b8ca39ba4ab834cc33bd2c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::dialogo
-  CaixaTexto: {fileID: 1301385920}
-  Frases:
-  - "N\xE3o sobrou Nenhuma op\xE7\xE3o para mim"
-  - Triste
-  TempoEntreFrases: 0.125
-  NomeDoProximoEvento: 
-  somdafala: {fileID: 0}
-  FalasDepoisScript: {fileID: 0}
 --- !u!1001 &1392106786
 PrefabInstance:
   m_ObjectHideFlags: 0
