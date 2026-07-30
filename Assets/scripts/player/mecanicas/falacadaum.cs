@@ -31,9 +31,11 @@ public class falacadaum : MonoBehaviour
        
         Clarear();
         canva.gameObject.SetActive(true); // Usa .gameObject.SetActive
-        yield return new WaitForSeconds(0.90f); // Adicionado o yield obrigatório
         Falas.SetActive(true);
         Escurecer();
+        yield return new WaitForSeconds(5f);
+        canva.gameObject.SetActive(false); 
+        Falas.SetActive(false);
         
         
     }
