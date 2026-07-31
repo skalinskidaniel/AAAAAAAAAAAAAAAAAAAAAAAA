@@ -6,12 +6,14 @@ public class andarbonitinho : MonoBehaviour
    private playerInput _playerInput; 
     public float velo = 8f;               
     public float velocidadeGiro = 15f;   
+    private Animator anim;
     private Rigidbody rb;
 
     void Awake()
     {
         _playerInput = GetComponent<playerInput>();
         rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -26,6 +28,7 @@ public class andarbonitinho : MonoBehaviour
         Vector3 moveDirection = transform.forward * _playerInput.MoveInput.y;//anda pr aaonde ele ta olhando
         Vector3 velocity = moveDirection * velo;
         velocity.y = rb.linearVelocity.y; //gravidade nele
+        anim.SetFloat("velocidade",_playerInput.MoveInput.y);
 
         rb.linearVelocity = velocity; //aplica a velocidade no rb
     }
