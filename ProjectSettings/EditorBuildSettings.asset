@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/vcFicou.unity
     guid: f9734d11971c33341a8f85a979142fba
   - enabled: 1
+    path: Assets/Scenes/eventos/parkcerto.unity
+    guid: 9cd43bda16ec06e4586585d3c8f48940
+  - enabled: 1
     path: Assets/Scenes/vcfoi.unity
     guid: e6cc5a887e815f24d9f340e2471e60da
   - enabled: 1
@@ -35,6 +38,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/salas/sala Prova.unity
     guid: 11c1b5f98426faf45a0835da9bc08b86
+  - enabled: 1
+    path: Assets/Scenes/salas/sala4P.unity
+    guid: b701ad215641b0d4e9490d5b3d406385
+  - enabled: 1
+    path: Assets/Scenes/salas/sala3ano.unity
+    guid: b4d84673856f74042973ff78dd85bd80
+  - enabled: 1
+    path: Assets/Scenes/salas/sala4ano.unity
+    guid: 48f903b4b7eec26448ad2501fc5ab67e
+  - enabled: 1
+    path: Assets/Scenes/eventos/churras_cena.unity
+    guid: 724c260660ae8194c8effe4a42c695fb
+  - enabled: 1
+    path: Assets/Scenes/salas/sala2anoP.unity
+    guid: 12515e0aeb0e881468711055e633e163
+  - enabled: 1
+    path: Assets/Scenes/eventos/Final_mesmo.unity
+    guid: 7246134a089540a4e9df133a1b152c82
+  - enabled: 1
+    path: Assets/Scenes/salas/sala3anoP.unity
+    guid: e3d28ae64480f7447855c4abfd3604a0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

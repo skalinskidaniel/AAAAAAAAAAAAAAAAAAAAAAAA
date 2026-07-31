@@ -287,6 +287,11 @@ PrefabInstance:
       propertyPath: CaixaTexto
       value: 
       objectReference: {fileID: 227453539}
+    - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
+      propertyPath: 'Frases.Array.data[0]'
+      value: "agora que estamos na formatura posso dizer que voc\xEA \xE9 meu melhor
+        amigo"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -352,7 +357,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91907606}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 15.71
@@ -404,7 +409,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -737,6 +742,11 @@ PrefabInstance:
       propertyPath: CaixaTexto
       value: 
       objectReference: {fileID: 672689733}
+    - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+      propertyPath: 'Frases.Array.data[0]'
+      value: "agora que estamos na formatura posso dizer que voc\xEA \xE9 meu melhor
+        amigo"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -802,7 +812,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203844586}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 0.55658513, g: 0.5424528, b: 1, a: 1}
   m_Intensity: 0.1
@@ -854,7 +864,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -1195,7 +1205,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492713397}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 7.7
@@ -1247,7 +1257,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -1282,6 +1292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 586563292}
   - component: {fileID: 586563291}
+  - component: {fileID: 586563293}
   m_Layer: 0
   m_Name: outline
   m_TagString: Untagged
@@ -1302,10 +1313,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::doCArlao
   pessoas:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 561722928}
+  - {fileID: 768856043}
+  - {fileID: 1522794868}
+  - {fileID: 1311965390}
   pessoaClicada: 0
   posicoes:
   - {fileID: 1840113983}
@@ -1327,6 +1338,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &586563293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586563290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a475ec5be9241b4089e2c3cda18103f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::outlineSebtado
 --- !u!1 &589648690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,7 +1858,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -2081,7 +2103,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042026291}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 15.71
@@ -2133,7 +2155,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -2318,6 +2340,11 @@ PrefabInstance:
       propertyPath: CaixaTexto
       value: 
       objectReference: {fileID: 1956735917}
+    - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
+      propertyPath: 'Frases.Array.data[0]'
+      value: "agora que estamos na formatura posso dizer que voc\xEA \xE9 meu melhor
+        amigo"
+      objectReference: {fileID: 0}
     - target: {fileID: 8070439772623571774, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       propertyPath: m_Name
       value: LK
@@ -2471,6 +2498,11 @@ PrefabInstance:
       propertyPath: CaixaTexto
       value: 
       objectReference: {fileID: 154902931}
+    - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
+      propertyPath: 'Frases.Array.data[0]'
+      value: "agora que estamos na formatura posso dizer que voc\xEA \xE9 meu melhor
+        amigo"
+      objectReference: {fileID: 0}
     - target: {fileID: 6574391854719021795, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: fala
       value: 
@@ -2649,7 +2681,7 @@ Transform:
   m_GameObject: {fileID: 1840113982}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.24805, y: 0, z: 1.83258}
+  m_LocalPosition: {x: 1.24805, y: 0.48, z: 1.83258}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
