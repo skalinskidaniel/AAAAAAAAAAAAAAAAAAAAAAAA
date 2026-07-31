@@ -288,6 +288,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 227453539}
     - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
+      propertyPath: NomeDoProximoEvento
+      value: final valeu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
       propertyPath: 'Frases.Array.data[0]'
       value: "agora que estamos na formatura posso dizer que voc\xEA \xE9 meu melhor
         amigo"
@@ -742,6 +746,10 @@ PrefabInstance:
       propertyPath: CaixaTexto
       value: 
       objectReference: {fileID: 672689733}
+    - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+      propertyPath: NomeDoProximoEvento
+      value: final valeu
+      objectReference: {fileID: 0}
     - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       propertyPath: 'Frases.Array.data[0]'
       value: "agora que estamos na formatura posso dizer que voc\xEA \xE9 meu melhor
@@ -2341,6 +2349,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1956735917}
     - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
+      propertyPath: NomeDoProximoEvento
+      value: final valeu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       propertyPath: 'Frases.Array.data[0]'
       value: "agora que estamos na formatura posso dizer que voc\xEA \xE9 meu melhor
         amigo"
@@ -2498,6 +2510,10 @@ PrefabInstance:
       propertyPath: CaixaTexto
       value: 
       objectReference: {fileID: 154902931}
+    - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
+      propertyPath: NomeDoProximoEvento
+      value: final valeu
+      objectReference: {fileID: 0}
     - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: 'Frases.Array.data[0]'
       value: "agora que estamos na formatura posso dizer que voc\xEA \xE9 meu melhor
