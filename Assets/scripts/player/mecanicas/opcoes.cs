@@ -5,6 +5,8 @@ using System.Collections;
 
 public class opcoes : MonoBehaviour
 {
+  public float temp;
+
   public void start()
   {
     SceneManager.LoadScene("sala");
@@ -40,7 +42,7 @@ public class opcoes : MonoBehaviour
     yield return new WaitForSeconds(0.90f); // Adicionado o yield obrigatório
     Falas.SetActive(true);
     Escurecer();
-    yield return new WaitForSeconds(3f);
+    yield return new WaitForSeconds(temp);
     Clarear();
     canva.gameObject.SetActive(false);
     Falas.SetActive(false);

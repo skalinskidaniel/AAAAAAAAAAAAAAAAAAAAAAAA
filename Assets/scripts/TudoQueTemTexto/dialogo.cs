@@ -14,9 +14,6 @@ public class dialogo : MonoBehaviour
     private AudioSource audiosouce;
     [SerializeField] public AudioClip somdafala;
 
-    [Tooltip("Referência ao componente FalasDepois deste NPC.")]
-    public FalasDepois FalasDepoisScript;
-
     private int FraseAtual;
     private Coroutine coroutineDigitar;
     private bool dialogoIniciado;
@@ -44,6 +41,7 @@ public class dialogo : MonoBehaviour
 
     void OnMouseDown()
     {
+        
         if (!dialogoIniciado)
         {
             ComecaDialogo();
@@ -62,15 +60,7 @@ public class dialogo : MonoBehaviour
     void Start()
     {
         audiosouce = GetComponent<AudioSource>();
-        if (FalasDepoisScript == null)
-        {
-            FalasDepoisScript = GetComponent<FalasDepois>();
-        }
-
-        if (FalasDepoisScript == null)
-        {
-            Debug.LogWarning($"FalasDepois não encontrado em {name}. Adicione o componente ou atribua pelo inspetor.");
-        }  
+        ComecaDialogo(); 
     }
 
     void ComecaDialogo()
@@ -120,10 +110,6 @@ public class dialogo : MonoBehaviour
         }
         else
         {
-            if (FalasDepoisScript != null)
-            {
-                FalasDepoisScript.MarcarConversa();
-            }
             SceneManager.LoadScene(NomeDoProximoEvento);
         }
     }
