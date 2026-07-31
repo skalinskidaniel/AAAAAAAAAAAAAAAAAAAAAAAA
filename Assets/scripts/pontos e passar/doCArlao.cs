@@ -5,18 +5,20 @@ public class doCArlao : MonoBehaviour
     public GameObject[] pessoas;
     public int pessoaClicada;
     public Transform[] posicoes;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public static int PessoaLugarFixo;
+
     private void Awake()
     {
+        PessoaLugarFixo = pessoaClicada;
         pessoaClicada = contaPontos.maior;
         Debug.Log("quem devia ta aqui : " + pessoaClicada);
-
     }
+
     void Start()
     {
         Debug.Log("começou");
 
-        pessoas[pessoaClicada].transform.position = posicoes[0].position;
+        pessoas[pessoaClicada].transform.SetPositionAndRotation(posicoes[0].position,posicoes[0].rotation);
 
         int p = 1;
 
@@ -24,16 +26,14 @@ public class doCArlao : MonoBehaviour
         {
             if (i != pessoaClicada)
             {
-                pessoas[i].transform.position = posicoes[p].position;
+                pessoas[i].transform.SetPositionAndRotation(posicoes[p].position,posicoes[p].rotation);
                 p++;
             }
         }
-        
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

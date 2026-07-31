@@ -4142,6 +4142,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 564126366}
     m_Modifications:
     - target: {fileID: 776155388721499562, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+      propertyPath: pontos.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 776155388721499562, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       propertyPath: 'pessoas.Array.data[0]'
       value: 
       objectReference: {fileID: 1218537851}

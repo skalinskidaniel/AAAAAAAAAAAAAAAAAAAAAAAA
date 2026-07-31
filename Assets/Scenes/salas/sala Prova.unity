@@ -3866,6 +3866,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9100000, guid: 8e824509ae7328c44960e634d6e1305a, type: 2}
     - target: {fileID: 8539923309989403159, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
+      propertyPath: pontos.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8539923309989403159, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: 'pessoas.Array.data[0]'
       value: 
       objectReference: {fileID: 1218537851}
@@ -3950,6 +3954,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1454300207809416794, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
+      propertyPath: pontos.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454300207809416794, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       propertyPath: 'pessoas.Array.data[0]'
       value: 
       objectReference: {fileID: 1218537851}
@@ -4003,6 +4011,10 @@ PrefabInstance:
     - target: {fileID: 832372337054631142, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
       propertyPath: m_Name
       value: pe de galinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585269061901724916, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
+      propertyPath: pontos.Array.size
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4585269061901724916, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
       propertyPath: 'pessoas.Array.data[1]'
@@ -4096,6 +4108,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 564126366}
     m_Modifications:
+    - target: {fileID: 776155388721499562, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+      propertyPath: pontos.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 776155388721499562, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       propertyPath: 'pessoas.Array.data[0]'
       value: 
