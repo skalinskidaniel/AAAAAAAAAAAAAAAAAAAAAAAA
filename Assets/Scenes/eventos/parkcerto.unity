@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &16896548
 RectTransform:
   m_ObjectHideFlags: 0
@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -152.52173, y: -237.69531}
+  m_AnchoredPosition: {x: -470, y: -108}
   m_SizeDelta: {x: 432.7742, y: 121.5058}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &16896549
@@ -218,6 +218,10 @@ PrefabInstance:
     - target: {fileID: 2273825537438451022, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       propertyPath: m_Name
       value: casca
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347573071498882547, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+      propertyPath: NpcId
+      value: sala2anoP
       objectReference: {fileID: 0}
     - target: {fileID: 4735224924928500159, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -293,7 +297,11 @@ PrefabInstance:
       objectReference: {fileID: 1752102514}
     - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       propertyPath: NomeDoProximoEvento
-      value: sala Prova
+      value: sala2anoP
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+      propertyPath: 'Frases.Array.data[0]'
+      value: "S\xF3 agora que eu percebi que tu t\xE1 quase sendo meu melhor amigo"
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5179939985176303836, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
@@ -796,7 +804,11 @@ PrefabInstance:
       objectReference: {fileID: 693072676}
     - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
       propertyPath: NomeDoProximoEvento
-      value: sala Prova
+      value: sala2anoP
+      objectReference: {fileID: 0}
+    - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
+      propertyPath: 'Frases.Array.data[0]'
+      value: "S\xF3 agora que eu percebi que tu t\xE1 quase sendo meu melhor amigo"
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6003860748127522984, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
@@ -915,7 +927,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 0.9254902, b: 0.6431373, a: 1}
   m_Intensity: 0.94
@@ -967,7 +979,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -1082,7 +1094,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: NomeDoProximoEvento
-      value: sala Prova
+      value: sala2anoP
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
+      propertyPath: 'Frases.Array.data[0]'
+      value: "S\xF3 agora que eu percebi que tu t\xE1 quase sendo meu melhor amigo"
       objectReference: {fileID: 0}
     - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: 'Frases.Array.data[1]'
@@ -1205,8 +1221,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1274,7 +1290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 964.3385, y: 57}
+  m_AnchoredPosition: {x: 631, y: 204}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &600622039 stripped
@@ -1348,7 +1364,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 964.3385, y: 57}
+  m_AnchoredPosition: {x: 631, y: 204}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &651177235
@@ -1398,8 +1414,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1485,7 +1501,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 964.3385, y: 57}
+  m_AnchoredPosition: {x: 631, y: 204}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &693072676
@@ -1535,8 +1551,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2024,7 +2040,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -152.52173, y: -237.69531}
+  m_AnchoredPosition: {x: -470, y: -108}
   m_SizeDelta: {x: 432.7742, y: 121.5058}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1141753993
@@ -2170,7 +2186,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -2383,7 +2398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 964.3385, y: 57}
+  m_AnchoredPosition: {x: 631, y: 204}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1524436417
@@ -2433,8 +2448,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2642,7 +2657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -152.52173, y: -237.69531}
+  m_AnchoredPosition: {x: -470, y: -108}
   m_SizeDelta: {x: 432.7742, y: 121.5058}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1654816140
@@ -3091,7 +3106,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       propertyPath: NomeDoProximoEvento
-      value: sala Prova
+      value: sala2anoP
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
+      propertyPath: 'Frases.Array.data[0]'
+      value: "S\xF3 agora que eu percebi que tu t\xE1 quase sendo meu melhor amigo"
       objectReference: {fileID: 0}
     - target: {fileID: 8070439772623571774, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       propertyPath: m_Name
@@ -3174,7 +3193,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -152.52173, y: -237.69531}
+  m_AnchoredPosition: {x: -470, y: -108}
   m_SizeDelta: {x: 432.7742, y: 121.5058}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2103456321
