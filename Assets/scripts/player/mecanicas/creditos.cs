@@ -8,7 +8,7 @@ public class creditos : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void opencreditos()
     {
-        SceneManager.LoadScene("creditos");
+        //SceneManager.LoadScene("Creditoss");
     }
     [SerializeField] public RawImage canva;
     public GameObject Falas;
