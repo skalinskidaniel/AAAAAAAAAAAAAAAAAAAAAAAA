@@ -25,7 +25,7 @@ public class dialogodoponto : MonoBehaviour
     private Coroutine coroutineDigitar;
     private bool dialogoIniciado;
     private bool digitando;
-
+    
     void Update()
     {
         if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
@@ -66,6 +66,7 @@ public class dialogodoponto : MonoBehaviour
     void Start()
     {
         audiosouce = GetComponent<AudioSource>();
+        dialogoIniciado = false;
 
         if (FalasDepoisScript == null)
         {

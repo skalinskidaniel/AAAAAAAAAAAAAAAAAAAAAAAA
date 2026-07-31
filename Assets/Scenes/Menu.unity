@@ -205,7 +205,7 @@ PrefabInstance:
       addedObject: {fileID: 230119190}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 626565902b7fa69428c3aa9273a8861e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 230119192}
+      addedObject: {fileID: 230119194}
   m_SourcePrefab: {fileID: 100100000, guid: 626565902b7fa69428c3aa9273a8861e, type: 3}
 --- !u!1 &230119184 stripped
 GameObject:
@@ -286,7 +286,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.6688266, y: 6.698659, z: 1}
   m_Center: {x: -0.1537075, y: 2.8493292, z: 0}
---- !u!114 &230119192
+--- !u!114 &230119194
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -295,12 +295,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 230119184}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21d4ad2ad0c11344fbbe3c0b2d2b658e, type: 3}
+  m_Script: {fileID: 11500000, guid: f1f4b542d07c09641988cc0e7a5c1df5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::falacadaum
+  m_EditorClassIdentifier: Assembly-CSharp::creditos
   canva: {fileID: 2068940068}
-  fala: {fileID: 1301385918}
-  espera: 0
+  Falas: {fileID: 1301385918}
 --- !u!1 &275621084 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 70a9c85bd183a1f49892adc16eb1c4c7, type: 3}
