@@ -54,6 +54,6 @@ public class falacadaum : MonoBehaviour
 
         yield return new WaitForSeconds(espera);
 
-        canva.gameObject.SetActive(false);
+        
     }
 }

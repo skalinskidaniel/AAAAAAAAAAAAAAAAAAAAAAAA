@@ -539,7 +539,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!82 &376764972
+--- !u!114 &376764973 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2347573071498882547, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+  m_PrefabInstance: {fileID: 7722357108916467428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376764962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e516f094c37964fa3193a3954e0c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FalasDepois
+--- !u!82 &376764979
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -552,7 +563,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 09ce3ed88574f434db991dc20ba9b2f7, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.6
+  m_Volume: 0.686
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -636,17 +647,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &376764973 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2347573071498882547, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
-  m_PrefabInstance: {fileID: 7722357108916467428}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 376764962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2e516f094c37964fa3193a3954e0c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FalasDepois
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,8 +978,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -136.82645, y: -133.28592}
-  m_SizeDelta: {x: 506.347, y: 127.4282}
+  m_AnchoredPosition: {x: -105.31477, y: -133.28592}
+  m_SizeDelta: {x: 569.3705, y: 127.4282}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &581030087
 MonoBehaviour:
@@ -2150,7 +2150,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 896663795013024916, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
   m_PrefabInstance: {fileID: 554379746068392520}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &1094701053
+--- !u!82 &1094701061
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2163,7 +2163,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 797e6d41342c1ff498d97529409b1960, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.6
+  m_Volume: 0.686
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2308,8 +2308,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -136.82645, y: -133.28592}
-  m_SizeDelta: {x: 506.347, y: 127.4282}
+  m_AnchoredPosition: {x: -105.31477, y: -133.28592}
+  m_SizeDelta: {x: 569.3705, y: 127.4282}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1123378699
 MonoBehaviour:
@@ -2378,7 +2378,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!82 &1177109533
+--- !u!82 &1177109540
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2391,7 +2391,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 526cc27a5a3410543a912852cb42368e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.6
+  m_Volume: 0.686
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2564,7 +2564,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7014052327467091047, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
   m_PrefabInstance: {fileID: 6451679217425190732}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &1218537853
+--- !u!82 &1218537861
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2576,8 +2576,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: a0fbc4d3f4018d043b323d7b592e13ca, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.6
+  m_PlayOnAwake: 1
+  m_Volume: 0.686
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2751,37 +2751,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4626261852344246252, guid: 6df96e8e76e1d8747a48f4522c5b4179, type: 3}
---- !u!1 &1266468698
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1266468699}
-  m_Layer: 0
-  m_Name: detecmause
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1266468699
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266468698}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 574.5, y: 323, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1274743792
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,8 +2976,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -136.82645, y: -133.28592}
-  m_SizeDelta: {x: 506.347, y: 127.4282}
+  m_AnchoredPosition: {x: -105.31477, y: -133.28592}
+  m_SizeDelta: {x: 569.3705, y: 127.4282}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1352839453
 MonoBehaviour:
@@ -3079,8 +3048,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -136.82645, y: -133.28592}
-  m_SizeDelta: {x: 506.347, y: 127.4282}
+  m_AnchoredPosition: {x: -105.31477, y: -133.28592}
+  m_SizeDelta: {x: 569.3705, y: 127.4282}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488959387
 MonoBehaviour:
@@ -3861,25 +3830,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
+      propertyPath: somdafala
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: CaixaTexto
       value: 
       objectReference: {fileID: 1884027768}
+    - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
+      propertyPath: audiosouce
+      value: 
+      objectReference: {fileID: 1094701061}
     - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: TempoEntreFrases
       value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
-      propertyPath: Frases.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: 'Frases.Array.data[0]'
-      value: opa man salve so alegria meu pia n sei puxa papo kk....
-      objectReference: {fileID: 0}
-    - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
-      propertyPath: 'Frases.Array.data[1]'
-      value: 'c gosta de pokemon eu gosto bastante mas n sei joga so coleciono as
-        carta msm '
+      value: o man vamo nois de dupla pra prova?
       objectReference: {fileID: 0}
     - target: {fileID: 6574391854719021795, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: fala
@@ -3919,7 +3887,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8822106786688424296, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1094701053}
+      addedObject: {fileID: 1094701061}
   m_SourcePrefab: {fileID: 100100000, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
 --- !u!1001 &4169468962816546323
 PrefabInstance:
@@ -3998,25 +3966,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 834262896}
     - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
+      propertyPath: audiosouce
+      value: 
+      objectReference: {fileID: 1177109540}
+    - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       propertyPath: TempoEntreFrases
       value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
-      propertyPath: Frases.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       propertyPath: 'Frases.Array.data[0]'
-      value: "tu \xE9 novo aqui n\xE9?... eu tamb\xE9m "
-      objectReference: {fileID: 0}
-    - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
-      propertyPath: 'Frases.Array.data[1]'
-      value: "bem, ningu\xE9m aqui se conhece... \xE9 o primeiro ano afinal "
-      objectReference: {fileID: 0}
-    - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
-      propertyPath: 'Frases.Array.data[2]'
-      value: "ali\xE1s prazer em te conhecer eu me chamo lucas mais as pessoas me
-        chamam de LK"
+      value: "Eu n\xE3o tenho dupla tamb\xE9m... podemos fazer juntos se quiser"
       objectReference: {fileID: 0}
     - target: {fileID: 8070439772623571774, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       propertyPath: m_Name
@@ -4031,7 +3990,7 @@ PrefabInstance:
       addedObject: {fileID: 1177109532}
     - targetCorrespondingSourceObject: {fileID: 8070439772623571774, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1177109533}
+      addedObject: {fileID: 1177109540}
   m_SourcePrefab: {fileID: 100100000, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
 --- !u!1001 &6451679217425190732
 PrefabInstance:
@@ -4114,15 +4073,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1274743794}
     - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
-      propertyPath: Frases.Array.size
-      value: 2
-      objectReference: {fileID: 0}
+      propertyPath: audiosouce
+      value: 
+      objectReference: {fileID: 1218537861}
     - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
       propertyPath: 'Frases.Array.data[0]'
-      value: "Fala ae cachorro, se mudar pra essa cidade \xE9 engra\xE7ado kk"
-      objectReference: {fileID: 0}
-    - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
-      propertyPath: 'Frases.Array.data[1]'
       value: 'quero logo ir pra casa jogar league of duty '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4131,7 +4086,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 832372337054631142, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1218537853}
+      addedObject: {fileID: 1218537861}
   m_SourcePrefab: {fileID: 100100000, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
 --- !u!1001 &7722357108916467428
 PrefabInstance:
@@ -4214,6 +4169,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 939300444}
     - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+      propertyPath: audiosouce
+      value: 
+      objectReference: {fileID: 376764979}
+    - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       propertyPath: TempoEntreFrases
       value: 0.125
       objectReference: {fileID: 0}
@@ -4222,20 +4181,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 376764973}
     - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
-      propertyPath: Frases.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       propertyPath: 'Frases.Array.data[0]'
-      value: Oii e ai qual a boa?
-      objectReference: {fileID: 0}
-    - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
-      propertyPath: 'Frases.Array.data[1]'
-      value: "A eu to bem n\xE9 meio pah escola nova mas \xE9 isso "
-      objectReference: {fileID: 0}
-    - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
-      propertyPath: 'Frases.Array.data[2]'
-      value: "Sim a gente faz parte do mesmo grupo aonde msm \xE9 a sala? "
+      value: mas bah croque inicio de semana de prova
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4246,7 +4193,7 @@ PrefabInstance:
       addedObject: {fileID: 376764971}
     - targetCorrespondingSourceObject: {fileID: 2273825537438451022, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 376764972}
+      addedObject: {fileID: 376764979}
   m_SourcePrefab: {fileID: 100100000, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
 --- !u!1001 &8484283802185267849
 PrefabInstance:
@@ -4326,6 +4273,5 @@ SceneRoots:
   - {fileID: 1008999684}
   - {fileID: 1183328381}
   - {fileID: 995523353}
-  - {fileID: 1266468699}
   - {fileID: 167141115}
   - {fileID: 2032950732}
