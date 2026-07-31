@@ -20,5 +20,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/creditos.unity
     guid: 0c8499dca4cefa64281ff91a71103ab9
+  - enabled: 1
+    path: Assets/Scenes/vcFicou.unity
+    guid: f9734d11971c33341a8f85a979142fba
+  - enabled: 1
+    path: Assets/Scenes/vcfoi.unity
+    guid: e6cc5a887e815f24d9f340e2471e60da
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 7d057696da9c4e04ea07bb1298ba8a93
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
