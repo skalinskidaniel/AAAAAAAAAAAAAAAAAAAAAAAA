@@ -60,7 +60,7 @@ public class dialogo : MonoBehaviour
     void Start()
     {
         audiosouce = GetComponent<AudioSource>();
-        ComecaDialogo(); 
+        //ComecaDialogo(); 
     }
 
     void ComecaDialogo()
