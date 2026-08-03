@@ -176,7 +176,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: fdfdf3bdadda9404084a407dc114139f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -673,7 +673,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
-  serializedVersion: 12
+  serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
@@ -725,7 +725,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShapeRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -2107,6 +2107,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -2575,7 +2576,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: a0fbc4d3f4018d043b323d7b592e13ca, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.686
   m_Pitch: 1
   Loop: 0
@@ -3831,7 +3832,7 @@ PrefabInstance:
     - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: somdafala
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 797e6d41342c1ff498d97529409b1960, type: 3}
     - target: {fileID: 4331720144161547579, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: CaixaTexto
       value: 
@@ -3981,6 +3982,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1094701051}
     - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
+      propertyPath: somdafala
+      value: 
+      objectReference: {fileID: 8300000, guid: 526cc27a5a3410543a912852cb42368e, type: 3}
+    - target: {fileID: 5165498567348691560, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       propertyPath: CaixaTexto
       value: 
       objectReference: {fileID: 834262896}
@@ -4104,6 +4109,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
+      propertyPath: somdafala
+      value: 
+      objectReference: {fileID: 8300000, guid: a0fbc4d3f4018d043b323d7b592e13ca, type: 3}
+    - target: {fileID: 7964581142055617623, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
       propertyPath: CaixaTexto
       value: 
       objectReference: {fileID: 1274743794}
@@ -4207,6 +4216,10 @@ PrefabInstance:
       propertyPath: espera
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+      propertyPath: somdafala
+      value: 
+      objectReference: {fileID: 8300000, guid: 09ce3ed88574f434db991dc20ba9b2f7, type: 3}
     - target: {fileID: 6422743505639572873, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       propertyPath: CaixaTexto
       value: 
