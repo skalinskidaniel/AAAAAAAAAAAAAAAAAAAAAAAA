@@ -307,6 +307,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 832372337054631142, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
       insertIndex: -1
       addedObject: {fileID: 561722937}
+    - targetCorrespondingSourceObject: {fileID: 832372337054631142, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 561722938}
   m_SourcePrefab: {fileID: 100100000, guid: 0f2bd31f85088dc43ad12c9349eac503, type: 3}
 --- !u!4 &39494108 stripped
 Transform:
@@ -368,7 +371,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91907606}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 15.71
@@ -420,7 +423,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -773,6 +776,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2273825537438451022, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 768856051}
+    - targetCorrespondingSourceObject: {fileID: 2273825537438451022, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 768856053}
+    - targetCorrespondingSourceObject: {fileID: 2273825537438451022, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 768856052}
   m_SourcePrefab: {fileID: 100100000, guid: fd8c180d004d8f646a04a4b26434977a, type: 3}
 --- !u!4 &182454310 stripped
 Transform:
@@ -834,7 +843,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203844586}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 0.55658513, g: 0.5424528, b: 1, a: 1}
   m_Intensity: 0.1
@@ -886,7 +895,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -1227,7 +1236,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492713397}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 7.7
@@ -1279,7 +1288,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -1401,6 +1410,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &561722938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561722928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b951a55990746f4984d476836326703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCMoves
+  aim: {fileID: 0}
 --- !u!1 &586563290
 GameObject:
   m_ObjectHideFlags: 0
@@ -1774,6 +1796,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &768856052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768856043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b951a55990746f4984d476836326703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCMoves
+  aim: {fileID: 0}
+--- !u!95 &768856053
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768856043}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 40e91af257ecd07449ff847476497d6b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &854368864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2074,7 +2131,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -2320,7 +2376,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042026291}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 15.71
@@ -2372,7 +2428,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -2581,6 +2637,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8070439772623571774, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1522794876}
+    - targetCorrespondingSourceObject: {fileID: 8070439772623571774, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1522794878}
+    - targetCorrespondingSourceObject: {fileID: 8070439772623571774, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1522794877}
   m_SourcePrefab: {fileID: 100100000, guid: 8c07e0bd5f9292b43ad2776c6cc03c32, type: 3}
 --- !u!4 &1385891292 stripped
 Transform:
@@ -2759,6 +2821,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &1522794877
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522794868}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5c261192e47328a48a8b6f39dfb1a1d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1522794878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522794868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b951a55990746f4984d476836326703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCMoves
+  aim: {fileID: 0}
 --- !u!1001 &1534995043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2848,6 +2945,10 @@ PrefabInstance:
       propertyPath: espera
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8030987681180297640, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 10eeb4c3da53dd34294ba35b0090ea0b, type: 2}
     - target: {fileID: 8539923309989403159, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       propertyPath: 'pessoas.Array.data[0]'
       value: 
@@ -2871,6 +2972,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8822106786688424296, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1534995053}
+    - targetCorrespondingSourceObject: {fileID: 8822106786688424296, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1534995054}
   m_SourcePrefab: {fileID: 100100000, guid: 89d33fd5085b12c429800093ecbf7dfa, type: 3}
 --- !u!4 &1534995044 stripped
 Transform:
@@ -2974,6 +3078,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1534995054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311965390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b951a55990746f4984d476836326703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCMoves
+  aim: {fileID: 0}
 --- !u!1 &1620319806
 GameObject:
   m_ObjectHideFlags: 0
